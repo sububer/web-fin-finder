@@ -7,6 +7,8 @@
 ## Overview
 [Web-fin-finder](app/fintech_finder.py) is an application which allows the user to import Ethereum transaction functions, and sign, execute and inspect transactions.  
 
+See [installation](#installation) and [usage](#usage) below for specifics.  
+
 ---
 
 ## Process
