@@ -53,6 +53,8 @@ This challenge uses [python](https://www.python.org/) 3.7 and the following modu
 - [hashlib](https://docs.python.org/3/library/hashlib.html)
 - [web3.py](https://web3py.readthedocs.io/en/stable/)  
 
+It also uses [Ganache](https://trufflesuite.com/ganache/) to manage the local blockchain and accounts.  
+
 See [installation](#installation) and [usage](#usage) below for specifics.
 
 ---
@@ -75,13 +77,16 @@ pip install dateutil
 ```
 
 **MNEMONIC ENV VAR**  
-You must populate [SAMPLE.env](/app/SAMPLE.env) with your mnemonic words from Ganach application, and then rename the file to `.env` in order for the application to connect to your running Ganache instance and generate an account.
+You must populate [SAMPLE.env](/app/SAMPLE.env) with your mnemonic words from Ganach application, and then rename the file to `.env` in order for the application to connect to your running Ganache instance and generate an account.  
+
+**Ganache**  
+Docs and download Ganache from [Ganache](https://trufflesuite.com/ganache/)  
 
 ---
 
 ## Usage
 
-To run the application, use the CLI and launch streamlit like:  
+To run the application, first launch Ganache, ensure your mnemonic words are in the `.env` file, then, use the CLI and launch streamlit like:  
 
 ```
 # activating the environment
