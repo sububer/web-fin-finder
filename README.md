@@ -7,7 +7,9 @@
 ## Overview
 [Web-fin-finder](app/fintech_finder.py) is an application which allows the user to import Ethereum transaction functions, and sign, execute and inspect transactions.  
 
-## Assumptions & Process
+---
+
+## Process
 [Web-fin-finder](app/fintech_finder.py) will use [python](https://www.python.org/), and highlight the [Streamlit](https://docs.streamlit.io/) web interface library, [web3.py](https://web3py.readthedocs.io/en/stable/) library, and [Ganache](https://trufflesuite.com/ganache/).  
 
 The main web functionality is implemented within [Web-fin-finder](app/fintech_finder.py) and the crypto functionality is imported from [crypto_wallet](/app/crypto_wallet.py).  
