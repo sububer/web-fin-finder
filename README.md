@@ -5,20 +5,25 @@
 ---
 
 ## Overview
-Web-fin-finder is an [application](app/fintech_finder.py) which allows the user to import Ethereum transaction functions, and sign, execute and inspect transactions.  
+[Web-fin-finder](app/fintech_finder.py) is an application which allows the user to import Ethereum transaction functions, and sign, execute and inspect transactions.  
 
 ## Assumptions & Process
-Web-blockchain applicaton will use [python](https://www.python.org/), and highlight the [Streamlit](https://docs.streamlit.io/) web interface library, [web3.py](https://web3py.readthedocs.io/en/stable/) library, and [Ganache](https://trufflesuite.com/ganache/).  
+[Web-fin-finder](app/fintech_finder.py) will use [python](https://www.python.org/), and highlight the [Streamlit](https://docs.streamlit.io/) web interface library, [web3.py](https://web3py.readthedocs.io/en/stable/) library, and [Ganache](https://trufflesuite.com/ganache/).  
+
+The main web functionality is implemented within [Web-fin-finder](app/fintech_finder.py) and the crypto functionality is imported from [crypto_wallet](/app/crypto_wallet.py).  
 
 **High-level steps:**  
-1. TBD  
+1. Import Ethereum Transaction functions from [crypto_wallet](/app/crypto_wallet.py) into the [application](/app/fintech_finder.py)
+2. Sign and execute a Payment Transaction
+3. Inspect the transaction in [Ganache](https://trufflesuite.com/ganache/)  
 
 **Submission:**  
-- TBD  
+- Importing, signing, executing transactions in [fintech_finder.py](/app/fintech_finder.py)
+- Screenshots from Ganache showing address, balance history for both sender and receiver.  
 
-## Web Application Testing and Validation
+## Web Application Transaction Screenshots
 
-**AppTesting**
+**Sender/Receiver Transaction And Balance History**
 TBD  
 
 ---
