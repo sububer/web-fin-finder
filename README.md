@@ -21,10 +21,19 @@ The main web functionality is implemented within [Web-fin-finder](app/fintech_fi
 - Importing, signing, executing transactions in [fintech_finder.py](/app/fintech_finder.py)
 - Screenshots from Ganache showing address, balance history for both sender and receiver.  
 
-## Web Application Transaction Screenshots
+## Transaction and Web Application Screenshots
 
-**Sender/Receiver Transaction And Balance History**
-TBD  
+**Address Balance History**
+![Address Balance](/media/01_address_balance_hist.png)  
+
+**Transactions**
+![Transactions](/media/02_transaction_details.png)  
+
+**Transaction Detail**
+![Detail](/media/03_recepient_trans_detail.png)
+
+**Running Web App**
+![WebApp](/media/04_web_app.png)  
 
 ---
 
@@ -60,6 +69,9 @@ conda activate dev
 pip install dateutil
 ...etc...
 ```
+
+**MNEMONIC ENV VAR**  
+You must populate [SAMPLE.env](/app/SAMPLE.env) with your mnemonic words from Ganach application, and then rename the file to `.env` in order for the application to connect to your running Ganache instance and generate an account.
 
 ---
 
